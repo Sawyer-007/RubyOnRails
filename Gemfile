@@ -1,6 +1,7 @@
 source 'https://ruby.taobao.org'
 
 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
@@ -51,5 +52,5 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
+  gem 'postgresql', '~> 1.0'
 end
